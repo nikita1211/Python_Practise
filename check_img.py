@@ -7,7 +7,7 @@ def check_img (str):
 	extension = guess_extension(source.info()['Content-Type'])
 	#print extension
 	if extension == ".png" or ".jpg" or ".svg":
-		print "an image"
+		print("an image")
 		string1 = "file03"
 		string2 = string1+extension
 		resource = urllib.urlopen(url)
